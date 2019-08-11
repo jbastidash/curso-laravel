@@ -12,5 +12,7 @@
 */
 
 Route::get('/', function () {
-    return view('Bienvenido');
+    return view('welcome');
 });
+
+Route::get('permiso', 'PermisoController@index');
